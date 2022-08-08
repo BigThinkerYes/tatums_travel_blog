@@ -8,15 +8,30 @@ h3 {
 header {
   background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
   background-size: cover;
+  border-radius: 0.75em;
+  text-shadow: 60px -6px #fff;
+  box-shadow: 60px -16px #fff;
 }
 body {
   background-color: antiquewhite;
 }
 article {
   background: linear-gradient(#e66465, #9198e5);
+  border-radius: 0.75em;
+  box-shadow: 60px -16px #fff;
 }
 /* link styles */
 a {
   color: lightseagreen;
   text-decoration: none;
+}
+img {
+  display: block;
+  height: 20%;
+  border: lightseagreen;
+  border-radius: 0.75em;
+  box-shadow: 60px -16px #fff;
+}
+.subheading {
+  border-bottom: 1px solid #000;
 }
